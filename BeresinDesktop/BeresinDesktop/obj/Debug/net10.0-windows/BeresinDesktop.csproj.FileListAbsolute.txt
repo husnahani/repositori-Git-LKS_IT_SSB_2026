@@ -1,0 +1,16 @@
+C:\repositori Git LKS_IT_SSB_2026\BeresinDesktop\BeresinDesktop\bin\Debug\net10.0-windows\BeresinDesktop.exe
+C:\repositori Git LKS_IT_SSB_2026\BeresinDesktop\BeresinDesktop\bin\Debug\net10.0-windows\BeresinDesktop.deps.json
+C:\repositori Git LKS_IT_SSB_2026\BeresinDesktop\BeresinDesktop\bin\Debug\net10.0-windows\BeresinDesktop.runtimeconfig.json
+C:\repositori Git LKS_IT_SSB_2026\BeresinDesktop\BeresinDesktop\bin\Debug\net10.0-windows\BeresinDesktop.dll
+C:\repositori Git LKS_IT_SSB_2026\BeresinDesktop\BeresinDesktop\bin\Debug\net10.0-windows\BeresinDesktop.pdb
+C:\repositori Git LKS_IT_SSB_2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.Form1.resources
+C:\repositori Git LKS_IT_SSB_2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.csproj.GenerateResource.cache
+C:\repositori Git LKS_IT_SSB_2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\repositori Git LKS_IT_SSB_2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.AssemblyInfoInputs.cache
+C:\repositori Git LKS_IT_SSB_2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.AssemblyInfo.cs
+C:\repositori Git LKS_IT_SSB_2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.csproj.CoreCompileInputs.cache
+C:\repositori Git LKS_IT_SSB_2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.dll
+C:\repositori Git LKS_IT_SSB_2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\refint\BeresinDesktop.dll
+C:\repositori Git LKS_IT_SSB_2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.pdb
+C:\repositori Git LKS_IT_SSB_2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.genruntimeconfig.cache
+C:\repositori Git LKS_IT_SSB_2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\ref\BeresinDesktop.dll
