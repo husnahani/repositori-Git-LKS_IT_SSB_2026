@@ -11,24 +11,55 @@
       "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\repositori git lks_it_ssb_2026\\beresindesktop\\beresindesktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\repositori git lks_it_ssb_2026\\beresindesktop\\beresindesktop\\dashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\dashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\repositori git lks_it_ssb_2026\\beresindesktop\\beresindesktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\repositori git lks_it_ssb_2026\\beresindesktop\\beresindesktop\\beresindesktop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\beresindesktop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\repositori git lks_it_ssb_2026\\beresindesktop\\beresindesktop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\beresindesktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\repositori git lks_it_ssb_2026\\beresindesktop\\beresindesktop\\dashboardform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\dashboardform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\repositori git lks_it_ssb_2026\\beresindesktop\\beresindesktop\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\repositori git lks_it_ssb_2026\\beresindesktop\\beresindesktop\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\repositori git lks_it_ssb_2026\\beresindesktop\\beresindesktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\repositori git lks_it_ssb_2026\\beresindesktop\\beresindesktop\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\repositori git lks_it_ssb_2026\\beresindesktop\\beresindesktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\beresindesktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\repositori git lks_it_ssb_2026\\beresindesktop\\beresindesktop\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\repositori git lks_it_ssb_2026\\beresindesktop\\beresindesktop\\beresindesktop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\beresindesktop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,13 +73,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\LoginForm.cs",
               "RelativeDocumentMoniker": "BeresinDesktop\\LoginForm.cs",
               "ToolTip": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\LoginForm.cs",
               "RelativeToolTip": "BeresinDesktop\\LoginForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwAgAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-14T14:51:26.565Z",
               "IsPinned": true,
@@ -62,23 +93,10 @@
               "RelativeDocumentMoniker": "BeresinDesktop\\DashboardForm.cs",
               "ToolTip": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\DashboardForm.cs",
               "RelativeToolTip": "BeresinDesktop\\DashboardForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAIwAAAAAAAAAAAA6wJMAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-14T15:16:11.483Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\Form1.cs",
-              "RelativeDocumentMoniker": "BeresinDesktop\\Form1.cs",
-              "ToolTip": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\Form1.cs",
-              "RelativeToolTip": "BeresinDesktop\\Form1.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwC4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T04:32:19.736Z",
               "EditorCaption": ""
             },
             {
@@ -90,20 +108,33 @@
               "ToolTip": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\DashboardForm.cs [Design]",
               "RelativeToolTip": "BeresinDesktop\\DashboardForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T03:47:52.154Z",
+              "WhenOpened": "2026-04-01T03:42:40.438Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BeresinDesktop.csproj",
-              "DocumentMoniker": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\BeresinDesktop.csproj",
-              "RelativeDocumentMoniker": "BeresinDesktop\\BeresinDesktop.csproj",
-              "ToolTip": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\BeresinDesktop.csproj",
-              "RelativeToolTip": "BeresinDesktop\\BeresinDesktop.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-15T02:29:21.373Z",
+              "DocumentIndex": 2,
+              "Title": "DashboardForm.Designer.cs",
+              "DocumentMoniker": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\DashboardForm.Designer.cs",
+              "RelativeDocumentMoniker": "BeresinDesktop\\DashboardForm.Designer.cs",
+              "ToolTip": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\DashboardForm.Designer.cs",
+              "RelativeToolTip": "BeresinDesktop\\DashboardForm.Designer.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAewH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T05:27:28.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAAkVAAAAAAAAAAAUwBIVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-01T01:08:46.77Z",
               "EditorCaption": ""
             },
             {
@@ -120,15 +151,112 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\Program.cs",
+              "RelativeDocumentMoniker": "BeresinDesktop\\Program.cs",
+              "ToolTip": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\Program.cs",
+              "RelativeToolTip": "BeresinDesktop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T11:40:25.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "DashboardForm.resx",
+              "DocumentMoniker": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\DashboardForm.resx",
+              "RelativeDocumentMoniker": "BeresinDesktop\\DashboardForm.resx",
+              "ToolTip": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\DashboardForm.resx",
+              "RelativeToolTip": "BeresinDesktop\\DashboardForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-03-31T12:26:56.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "BeresinDesktop\\Form1.Designer.cs",
+              "ToolTip": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\Form1.Designer.cs",
+              "RelativeToolTip": "BeresinDesktop\\Form1.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T11:39:13.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "BeresinDesktop\\LoginForm.Designer.cs",
+              "ToolTip": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\LoginForm.Designer.cs",
+              "RelativeToolTip": "BeresinDesktop\\LoginForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T11:38:42.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\Form1.resx",
+              "RelativeDocumentMoniker": "BeresinDesktop\\Form1.resx",
+              "ToolTip": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\Form1.resx",
+              "RelativeToolTip": "BeresinDesktop\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-03-31T11:39:08.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\Form1.cs",
               "RelativeDocumentMoniker": "BeresinDesktop\\Form1.cs",
               "ToolTip": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\Form1.cs [Design]",
               "RelativeToolTip": "BeresinDesktop\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T03:40:16.104Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-12T03:40:16.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\Form1.cs",
+              "RelativeDocumentMoniker": "BeresinDesktop\\Form1.cs",
+              "ToolTip": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\Form1.cs",
+              "RelativeToolTip": "BeresinDesktop\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T04:32:19.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "BeresinDesktop\\DatabaseHelper.cs",
+              "ToolTip": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\DatabaseHelper.cs",
+              "RelativeToolTip": "BeresinDesktop\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T05:01:45.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BeresinDesktop.csproj",
+              "DocumentMoniker": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\BeresinDesktop.csproj",
+              "RelativeDocumentMoniker": "BeresinDesktop\\BeresinDesktop.csproj",
+              "ToolTip": "C:\\repositori Git LKS_IT_SSB_2026\\BeresinDesktop\\BeresinDesktop\\BeresinDesktop.csproj",
+              "RelativeToolTip": "BeresinDesktop\\BeresinDesktop.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-15T02:29:21.373Z",
+              "EditorCaption": ""
             }
           ]
         }

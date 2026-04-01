@@ -34,14 +34,15 @@
             btnTambah = new Button();
             btnEdit = new Button();
             btnHapusTugas = new Button();
-            btnManajemenPengguna = new Button();
             lblWelcome = new Label();
+            btnManajementPengguna = new Button();
+            txtTambah = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dgvTugas).BeginInit();
             SuspendLayout();
             // 
             // txtSearch
             // 
-            txtSearch.Location = new Point(219, 121);
+            txtSearch.Location = new Point(12, 75);
             txtSearch.Name = "txtSearch";
             txtSearch.Size = new Size(150, 31);
             txtSearch.TabIndex = 0;
@@ -50,17 +51,17 @@
             // dgvTugas
             // 
             dgvTugas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvTugas.Location = new Point(66, 244);
+            dgvTugas.Location = new Point(12, 130);
             dgvTugas.Name = "dgvTugas";
             dgvTugas.RowHeadersWidth = 62;
-            dgvTugas.Size = new Size(99, 91);
+            dgvTugas.Size = new Size(596, 348);
             dgvTugas.TabIndex = 1;
             // 
             // cmbStatusFilter
             // 
             cmbStatusFilter.FormattingEnabled = true;
             cmbStatusFilter.Items.AddRange(new object[] { "Semua", "Pending", "Selesai" });
-            cmbStatusFilter.Location = new Point(219, 203);
+            cmbStatusFilter.Location = new Point(416, 71);
             cmbStatusFilter.Name = "cmbStatusFilter";
             cmbStatusFilter.Size = new Size(182, 33);
             cmbStatusFilter.TabIndex = 2;
@@ -68,57 +69,69 @@
             // 
             // btnTambah
             // 
-            btnTambah.Location = new Point(541, 140);
+            btnTambah.Location = new Point(655, 130);
             btnTambah.Name = "btnTambah";
             btnTambah.Size = new Size(112, 34);
             btnTambah.TabIndex = 3;
             btnTambah.Text = "Tambah";
             btnTambah.UseVisualStyleBackColor = true;
+            btnTambah.Click += btnTambah_Click;
             // 
             // btnEdit
             // 
-            btnEdit.Location = new Point(541, 203);
+            btnEdit.Location = new Point(655, 194);
             btnEdit.Name = "btnEdit";
             btnEdit.Size = new Size(112, 34);
             btnEdit.TabIndex = 4;
             btnEdit.Text = "Edit";
             btnEdit.UseVisualStyleBackColor = true;
+            btnEdit.Click += btnEdit_Click;
             // 
             // btnHapusTugas
             // 
-            btnHapusTugas.Location = new Point(541, 271);
+            btnHapusTugas.Location = new Point(655, 254);
             btnHapusTugas.Name = "btnHapusTugas";
             btnHapusTugas.Size = new Size(112, 34);
             btnHapusTugas.TabIndex = 5;
             btnHapusTugas.Text = "Hapus Tugas";
             btnHapusTugas.UseVisualStyleBackColor = true;
-            // 
-            // btnManajemenPengguna
-            // 
-            btnManajemenPengguna.Location = new Point(541, 329);
-            btnManajemenPengguna.Name = "btnManajemenPengguna";
-            btnManajemenPengguna.Size = new Size(112, 34);
-            btnManajemenPengguna.TabIndex = 6;
-            btnManajemenPengguna.Text = "Manajemen Pengguna";
-            btnManajemenPengguna.UseVisualStyleBackColor = true;
+            btnHapusTugas.Click += btnHapusTugas_Click_1;
             // 
             // lblWelcome
             // 
             lblWelcome.AutoSize = true;
-            lblWelcome.Location = new Point(366, 33);
+            lblWelcome.Location = new Point(41, 18);
             lblWelcome.Name = "lblWelcome";
             lblWelcome.Size = new Size(59, 25);
             lblWelcome.TabIndex = 7;
             lblWelcome.Text = "label1";
             lblWelcome.Click += label1_Click;
             // 
+            // btnManajementPengguna
+            // 
+            btnManajementPengguna.Location = new Point(655, 72);
+            btnManajementPengguna.Name = "btnManajementPengguna";
+            btnManajementPengguna.Size = new Size(112, 34);
+            btnManajementPengguna.TabIndex = 8;
+            btnManajementPengguna.Text = "Manajement";
+            btnManajementPengguna.UseVisualStyleBackColor = true;
+            btnManajementPengguna.Click += button1_Click;
+            // 
+            // txtTambah
+            // 
+            txtTambah.Location = new Point(205, 75);
+            txtTambah.Name = "txtTambah";
+            txtTambah.Size = new Size(150, 31);
+            txtTambah.TabIndex = 9;
+            // 
             // DashboardForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(txtTambah);
+            Controls.Add(btnManajementPengguna);
             Controls.Add(lblWelcome);
-            Controls.Add(btnManajemenPengguna);
             Controls.Add(btnHapusTugas);
             Controls.Add(btnEdit);
             Controls.Add(btnTambah);
@@ -141,7 +154,8 @@
         private Button btnTambah;
         private Button btnEdit;
         private Button btnHapusTugas;
-        private Button btnManajemenPengguna;
         private Label lblWelcome;
+        private Button btnManajementPengguna;
+        private TextBox txtTambah;
     }
 }

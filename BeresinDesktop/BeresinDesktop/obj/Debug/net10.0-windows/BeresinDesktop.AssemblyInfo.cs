@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BeresinDesktop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ff41d8d0b5d4294468f07c6b1b24fca12ce76b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+849537f5eb15c8f5a36496e16b85b185c6a7c80c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BeresinDesktop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BeresinDesktop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

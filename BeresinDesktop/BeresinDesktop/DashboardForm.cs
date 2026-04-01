@@ -15,7 +15,7 @@ namespace BeresinDesktop
         private void DashboardForm_Load(object sender, EventArgs e)
         {
             SetAccessRestriction();
-            SetWelcomeMessage(); // Tambahkan ini
+            SetWelcomeMessage(); // Tampilkan pesan role-based
             LoadData();
         }
 
@@ -37,29 +37,23 @@ namespace BeresinDesktop
             if (LoginForm.CurrentRole != "Admin")
             {
                 btnHapusTugas.Visible = false;
-                btnManajemenPengguna.Visible = false;
+
             }
         }
 
-        private void LoadData(string search = "", string status = "")
+        private void LoadData(string search = "")
         {
             using (SqlConnection conn = DatabaseHelper.GetConnection())
             {
-                string query = "SELECT Id, NamaTugas, Status FROM Tugas WHERE 1=1";
+                string query = "SELECT CategoryID, CategoryName, Status FROM Categories WHERE 1=1";
 
                 if (!string.IsNullOrEmpty(search))
-                    query += " AND NamaTugas LIKE @search";
-
-                if (!string.IsNullOrEmpty(status) && status != "Semua")
-                    query += " AND Status=@status";
+                    query += " AND CategoryName LIKE @search";
 
                 SqlDataAdapter da = new SqlDataAdapter(query, conn);
 
                 if (!string.IsNullOrEmpty(search))
                     da.SelectCommand.Parameters.AddWithValue("@search", "%" + search + "%");
-
-                if (!string.IsNullOrEmpty(status) && status != "Semua")
-                    da.SelectCommand.Parameters.AddWithValue("@status", status);
 
                 DataTable dt = new DataTable();
                 da.Fill(dt);
@@ -70,38 +64,40 @@ namespace BeresinDesktop
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
-            LoadData(txtSearch.Text, cmbStatusFilter.Text);
+            LoadData(txtSearch.Text);
         }
 
+        // Karena tabel Categories tidak ada filter status,
+        // jika ada combobox status, event ini bisa dihilangkan atau dibuat kosong.
         private void cmbStatusFilter_SelectedIndexChanged(object sender, EventArgs e)
         {
-            LoadData(txtSearch.Text, cmbStatusFilter.Text);
+            // Kosongkan saja, atau hapus event ini kalau tidak dipakai
         }
 
         private void btnHapusTugas_Click(object sender, EventArgs e)
         {
             if (dgvTugas.SelectedRows.Count > 0)
             {
-                int taskId = Convert.ToInt32(dgvTugas.SelectedRows[0].Cells["Id"].Value);
-                var confirm = MessageBox.Show("Yakin ingin menghapus tugas ini?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                int categoryId = Convert.ToInt32(dgvTugas.SelectedRows[0].Cells["CategoryID"].Value);
+                var confirm = MessageBox.Show("Yakin ingin menghapus kategori ini?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
                 if (confirm == DialogResult.Yes)
                 {
                     using (SqlConnection conn = DatabaseHelper.GetConnection())
                     {
-                        string query = "DELETE FROM Tugas WHERE Id=@id";
+                        string query = "DELETE FROM Categories WHERE CategoryID=@id";
                         SqlCommand cmd = new SqlCommand(query, conn);
-                        cmd.Parameters.AddWithValue("@id", taskId);
+                        cmd.Parameters.AddWithValue("@id", categoryId);
 
                         conn.Open();
                         cmd.ExecuteNonQuery();
                     }
-                    LoadData(txtSearch.Text, cmbStatusFilter.Text);
+                    LoadData(txtSearch.Text);
                 }
             }
             else
             {
-                MessageBox.Show("Pilih tugas yang ingin dihapus!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Pilih kategori yang ingin dihapus!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -112,7 +108,85 @@ namespace BeresinDesktop
 
         private void label1_Click(object sender, EventArgs e)
         {
+            // Bisa dihapus jika tidak ada aksi khusus
+        }
 
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (dgvTugas.CurrentRow == null) return;
+
+            string id = dgvTugas.CurrentRow.Cells["CategoryID"].Value.ToString();
+
+            // GUNAKAN DatabaseHelper agar tidak perlu variabel 'koneksi' lagi
+            using (SqlConnection conn = DatabaseHelper.GetConnection())
+            {
+                string query = "UPDATE Categories SET CategoryName=@name, Status=@status WHERE CategoryID=@id";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@name", txtTambah.Text);
+                cmd.Parameters.AddWithValue("@status", cmbStatusFilter.Text);
+                cmd.Parameters.AddWithValue("@id", id);
+
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Data Berhasil Diubah!");
+                LoadData();
+            }
+        }
+
+        private void btnManajemenPengguna_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTambah_Click(object sender, EventArgs e)
+        {
+            using (SqlConnection conn = DatabaseHelper.GetConnection())
+            {
+                string query = "INSERT INTO Categories (CategoryName, Status) VALUES (@name, @status)";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@name", txtTambah.Text);
+                cmd.Parameters.AddWithValue("@status", cmbStatusFilter.Text);
+
+                conn.Open();
+                cmd.ExecuteNonQuery();
+
+                MessageBox.Show("Data Berhasil Ditambah!");
+                LoadData();
+            }
+        }
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHapusTugas_Click_1(object sender, EventArgs e)
+        {
+            if (dgvTugas.CurrentRow == null) return;
+
+            string id = dgvTugas.CurrentRow.Cells["CategoryID"].Value.ToString();
+
+            var confirm = MessageBox.Show("Yakin hapus data ini?", "Konfirmasi", MessageBoxButtons.YesNo);
+            if (confirm == DialogResult.Yes)
+            {
+                // GUNAKAN DatabaseHelper juga di sini
+                using (SqlConnection conn = DatabaseHelper.GetConnection())
+                {
+                    string query = "DELETE FROM Categories WHERE CategoryID=@id";
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@id", id);
+
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    LoadData();
+                }
+            }
         }
     }
 }
+            
+        
